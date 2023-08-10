@@ -13,22 +13,22 @@
 
 </div>
 
------------------------------------------
+---
+
 ### Features added:
 
-* `Vehicle counts` - The number of vehicles that have crossed the intersection is displayed adjacent to each traffic signal for each direction.
-* `Time Elapsed` - The time elapsed since the start of the simulation is displayed at the top right.
-* `Simulation Duration` - The total duration of simulation or end time can be set. The simulation will quit automatically when the time elapsed is equal to the simulation duration.
-* `Printing timers on Terminal` - The timer values of all signals are printed on the Terminal every second. This is useful for effective debugging while customizing the simulation according to your application.
-* `Printing cumulative statistics` - Statistics like direction-wise vehicle counts, total vehicles, and simulation time are printed on the Terminal at the end of the simulation, as shown in the image below.
+- `Vehicle counts` - The number of vehicles that have crossed the intersection is displayed adjacent to each traffic signal for each direction.
+- `Time Elapsed` - The time elapsed since the start of the simulation is displayed at the top right.
+- `Simulation Duration` - The total duration of simulation or end time can be set. The simulation will quit automatically when the time elapsed is equal to the simulation duration.
+- `Printing timers on Terminal` - The timer values of all signals are printed on the Terminal every second. This is useful for effective debugging while customizing the simulation according to your application.
+- `Printing cumulative statistics` - Statistics like direction-wise vehicle counts, total vehicles, and simulation time are printed on the Terminal at the end of the simulation, as shown in the image below.
 
 <p align="center">
  <img height=150px src="./stats.png" alt="Stats">
 </p>
 
-Find a step-by-step guide to build this simulation [here](https://towardsdatascience.com/traffic-intersection-simulation-using-pygame-689d6bd7687a).
+---
 
-------------------------------------------
 ### Demo
 
 The video below shows the final output of the simulation.
@@ -37,36 +37,12 @@ The video below shows the final output of the simulation.
     <img src="./Demo.gif">
 </p>
 
-------------------------------------------
+---
+
 ### Prerequisites
 
 [Python 3.1+](https://www.python.org/downloads/)
 
-------------------------------------------
-### Installation
-
- * Step I: Clone the Repository
-```sh
-      $ git clone https://github.com/mihir-m-gandhi/Traffic-Intersection-Simulation-with-Stats
-```
-  * Step II: Install the required packages
-```sh
-      # On the terminal, move into Traffic-Intersection-Simulation-with-Stats directory
-      $ cd Traffic-Intersection-Simulation-with-Stats
-      $ pip install pygame
-```
-* Step III: Run the code
-```sh
-      # To run simulation
-      $ python simulation.py
-```
-
-------------------------------------------
 ### Author
 
-Mihir Gandhi - [mihir-m-gandhi](https://github.com/mihir-m-gandhi)
-
-------------------------------------------
-### License
-This project is licensed under the MIT - see the [LICENSE](./LICENSE) file for details.
-# Hsham-Ngim
+Hsham-Ngim
